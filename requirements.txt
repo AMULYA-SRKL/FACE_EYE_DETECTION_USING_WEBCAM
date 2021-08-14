@@ -1,0 +1,17 @@
+!git clone https://github.com/opencv/opencv.git
+
+#CREATE A FILE WITH NAME VIDEO
+!mkdir Video
+
+#CODE FOR ACCESSING WEBCAM IN COLAB
+!pip install ffmpeg-python
+
+from IPython.display import HTML, Javascript, display
+from google.colab.output import eval_js
+from base64 import b64decode
+import numpy as np
+import io
+import ffmpeg
+
+import cv2  
+from google.colab.patches import cv2_imshow
