@@ -1,4 +1,4 @@
-!git clone https://github.com/opencv/opencv.git
+
 
 #CREATE A FILE WITH NAME VIDEO
 !mkdir Video
